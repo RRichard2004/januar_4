@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\szamonkeres 01.04.props" />
+</Project>
