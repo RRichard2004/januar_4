@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3twuonj7fDH/JTkPJiC9RyYm4X4FDy7U7GFRexad2vsVTtXwGQjCBStXpcDbPP4He+1/jaA3zpEclZkjAviaRQ==",
+  "dgSpecHash": "1hvN3Xk1uEKsaBCfPbDmHSLKJL+RLDVug6Sqki/qBQEOo1rwb/Jf6fD3LGsetoNt9/dpw4o+8hVCP72gGQ13Qw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rrichárd\\source\\repos\\szamonkeres 01.04\\szamonkeres 01.04\\szamonkeres 01.04.csproj",
+  "projectFilePath": "C:\\Users\\rrichárd\\Documents\\GitHub\\januar_4\\szamonkeres 01.04\\szamonkeres 01.04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rrichárd\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rrichárd\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

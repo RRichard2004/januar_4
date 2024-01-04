@@ -29,6 +29,19 @@ namespace szamonkeres_01._04.Models
             return await personInterface.Get();
         }
 
+        [HttpGet("GetCards")]
+        public async Task<ActionResult<IEnumerable<Person>>> GetCards(Guid id)
+        {
+            var result = await personInterface.GetCards(id);
+
+            if (!result.Any()) 
+            { 
+                return StatusCode(404, "User user has no cards"); 
+            }
+
+            return StatusCode(200, result);
+        }
+
         [HttpGet("GetById")]
         public async Task<ActionResult<Person>> GetById(Guid id)
         {

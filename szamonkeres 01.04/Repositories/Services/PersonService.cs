@@ -50,11 +50,24 @@ namespace szamonkeres_01._04.Repositories.Services
             return await dbContext.Person.ToListAsync();
         }
 
+
+        public async Task<IEnumerable<CreditCard>> GetCards(Guid id)
+        {
+            var result = dbContext.CreditCard.Where(x => x.OwnerId == id);
+            if (result.Any())
+            {
+                return await result.ToListAsync();
+            }
+            return new List<CreditCard>();
+        }
+
+
         public async Task<Person> GetById(Guid id)
         {
             return await dbContext.Person.FirstOrDefaultAsync(x => x.Id == id);
         }
 
+        
         public async Task<Person> Put(Guid id, UpdatePersonDto updatePersonDto)
         {
             var thatguy = dbContext.Person.FirstOrDefault(x => x.Id == id);
